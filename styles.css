@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  border-bottom: 3px solid rgb(83, 141, 8);
+}
+
+body img {
+  margin: 10px;
+}
+
+a {
+  color: rgb(255, 81, 0);
+}
+
+a:hover {
+  color: rgb(21, 180, 21);
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 3px solid rgb(83, 141, 8);
+  border-top: 3px solid rgb(83, 141, 8);
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
+
+#project-container,
+#aboutme {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.project,
+.portfolioItem {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgb(83, 141, 8);
+}
+
+.project ul,
+#aboutme ul {
+  list-style-type: disc;
+}
+
+.project img,
+#aboutme img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.project h2,
+#aboutme h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#aboutme h2 {
+  margin: 0 auto;
+}
